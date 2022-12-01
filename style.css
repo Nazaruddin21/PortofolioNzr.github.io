@@ -1,0 +1,180 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    border: 2px solid aqua;
+}
+/*STYLE HOME/INDEX*/
+.Header-Menu{
+    background-color: #00ced1;
+}
+.TBL-Menu{
+    width: 100%;
+}
+.Logo-Menu{
+    float: left;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.Logo-Menu a{
+    font-family: monospace;
+    font-size: 25px;
+    color: white;
+}
+.Td-Menu{
+    padding-top: 5px;
+}
+.Td-Menu a{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 40px;
+}
+.Td-Menu a:hover{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Li-Image{
+    list-style-type: none;
+}
+.Li-Image a{
+   margin-left: 40px;
+}
+.Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Image-Home{
+    padding-top: 20px;
+    border-radius: 40%;
+}
+.Desc-Nama{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: monospace;
+    font-size: 40px;
+}
+.Desc-Ket{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.Desc-Warning{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+/*STYLE ABOUT*/
+.Desc-About{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 180px;
+}
+.Image-About{
+    border-radius: 30%;
+    padding-top: 10px;
+    float: left;
+    padding-left: 60px;
+}
+.Div-About{
+    display: flex;
+    justify-content: right;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.Content-About{
+    border-radius: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: wheat;
+    padding: 30px;
+}
+.Div-Perinsip{
+    padding-top: 20px;
+    padding-right: 100px;
+    float: right;
+    text-align: center;
+}
+.Desc-Perinsip{
+    background-color: wheat;
+    border-radius: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+}
+/*STYLE CONTACT*/
+.Icon-JariLeft{
+    float: left;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.Icon-JariRight{
+    float: right;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+.TBL-Contact{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Td-Contact{
+    padding-top: 20px;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    background-color: darkseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+.Td-Icon{
+    padding-top: 20px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    background-color: gray;
+}
+/*STYLE CV*/
+.Intro-Cv{
+    padding-top: 20px;
+    text-align: center;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.Foto-Cv{
+    border-radius: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Image-Cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ket-Cv{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.Desc-Cv{
+    text-align: center;
+    background-color:wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
